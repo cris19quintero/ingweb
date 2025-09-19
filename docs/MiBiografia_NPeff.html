@@ -6,183 +6,208 @@
     <title>Mi Biografía - Virgilio Peff</title>
 </head>
 <body>
-    <!-- Nombre principal -->
-    <h1>Virgilio Peff</h1>
+    <header>
+        <h1>Virgilio Peff</h1>
+        <nav>
+            <a href="#sobre-mi">Sobre mí</a> | 
+            <a href="#libros-favoritos">Mis libros favoritos</a> | 
+            <a href="#peliculas-favoritas">Mis películas favoritas</a> | 
+            <a href="#canciones-favoritas">Canciones favoritas</a>
+        </nav>
+    </header>
     
-    <!-- Dos párrafos sobre ti -->
-<p>
-    Mi nombre es Virgilio Peff, tengo 20 años y nací en Panamá. Actualmente estoy cursando el tercer año de la carrera de Ingeniería en Software en la Universidad Tecnológica de Panamá.
-</p>
+    <main>
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            
+            <article>
+                <h3>Presentación Personal</h3>
+                <p>Mi nombre es Virgilio Peff, tengo 20 años y nací en Panamá. Actualmente estoy cursando el tercer año de la carrera de Ingeniería en Software en la Universidad Tecnológica de Panamá.</p>
+                
+                <p>Me considero una persona creativa, responsable y perseverante, siempre buscando aprender y enfrentar nuevos desafíos en el campo de la tecnología. Mi meta es desarrollarme como profesional en el área de software, adquirir experiencia práctica.</p>
+                
+                <img src="imagenes/Peff.jpeg" alt="Foto de Virgilio" width="300" height="400">
+                <p>Mi sitio web favorito es: <a href="https://www.twitch.tv/" target="_blank">Twitch</a></p>
+            </article>
+            
+            <article>
+                <h3>Video de Presentación</h3>
+                <video width="400" height="300" controls>
+                    <source src="videos/virgilio.mp4" type="video/mp4">
+                    <source src="videos/virgilio.mp4" type="video/webm">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </article>
+            
+            <article>
+                <h3>Mis Cualidades</h3>
+                <dl>
+                    <dt>Curiosidad</dt>
+                    <dd>Tendencia a explorar y hacer preguntas para comprender a fondo cada tema antes de responder.</dd>
 
-<p>
-    Me considero una persona creativa, responsable y perseverante, siempre buscando aprender y enfrentar nuevos desafíos en el campo de la tecnología. Mi meta es desarrollarme como profesional en el área de software, adquirir experiencia práctica 
-</p>
-    
-    <!-- Imagen personal -->
-    <img src="imagenes/Peff.jpeg" alt="Foto de Virgilio" width="300" height="400">
-    
-    <!-- Link a sitio web favorito -->
-    <p>Mi sitio web favorito es: <a href="https://www.twitch.tv/" target="_blank">twitch</a></p>
-    
-    <!-- Top 5 libros favoritos -->
-    <h2>Mis Libros Favoritos</h2>
-    <ol>
-        <li>La sombra del viento - Carlos Ruiz Zafón</li>
-        <li>Sapiens: De animales a dioses - Yuval Noah Harari</li>
-        <li>El hombre en busca de sentido - Viktor Frankl</li>
-        <li>Cien años de soledad - Gabriel García Márquez</li>
-        <li>The Pragmatic Programmer - David Thomas</li>
-    </ol>
-    
-    <!-- Pasatiempos -->
-    <h2>Mis Pasatiempos</h2>
-    <ul>
-        <li>Videojuegos</li>
-        <li>Deportes</li>
-        <li>Música</li>
-        <li>Viajar</li>
-        <li>Salir con amigos</li>
-    </ul>
-    
-    <!-- Cualidades personales -->
-    <h2>Mis Cualidades</h2>
-    <dl>
-        <dt>Curiosidad</dt>
-        <dd>Tendencia a explorar y hacer preguntas para comprender a fondo cada tema antes de responder.</dd>
+                    <dt>Claridad</dt>
+                    <dd>Capacidad para explicar ideas de forma sencilla, estructurada y directa, evitando rodeos innecesarios.</dd>
 
-        <dt>Claridad</dt>
-        <dd>Capacidad para explicar ideas de forma sencilla, estructurada y directa, evitando rodeos innecesarios.</dd>
+                    <dt>Empatía</dt>
+                    <dd>Enfoque orientado a las necesidades del usuario, adaptando el tono y el detalle a su contexto.</dd>
 
-        <dt>Empatía</dt>
-        <dd>Enfoque orientado a las necesidades del usuario, adaptando el tono y el detalle a su contexto.</dd>
+                    <dt>Rigor</dt>
+                    <dd>Compromiso con la precisión: verifico datos y cito fuentes cuando corresponde.</dd>
 
-        <dt>Rigor</dt>
-        <dd>Compromiso con la precisión: verifico datos y cito fuentes cuando corresponde.</dd>
-
-        <dt>Creatividad</dt>
-        <dd>Propuesta de soluciones e ideas originales, con ejemplos prácticos y variantes cuando es útil.</dd>
-    </dl>
-    <!-- Películas favoritas por género -->
-    <h2>Películas Favoritas</h2>
+                    <dt>Creatividad</dt>
+                    <dd>Propuesta de soluciones e ideas originales, con ejemplos prácticos y variantes cuando es útil.</dd>
+                </dl>
+            </article>
+            
+            <article>
+                <h3>Mis Pasatiempos</h3>
+                <ul>
+                    <li>Videojuegos</li>
+                    <li>Deportes</li>
+                    <li>Música</li>
+                    <li>Viajar</li>
+                    <li>Salir con amigos</li>
+                </ul>
+            </article>
+        </section>
+        
+        <section id="libros-favoritos">
+            <h2>Mis libros favoritos</h2>
+            
+            <article>
+                <h3>La sombra del viento</h3>
+                <p><strong>Autor:</strong> Carlos Ruiz Zafón</p>
+                <p><strong>Resumen:</strong> Una novela ambientada en la Barcelona de posguerra que narra la historia de Daniel Sempere, un joven que descubre un libro misterioso en el Cementerio de los Libros Olvidados. Al intentar encontrar otros libros del mismo autor, se ve envuelto en una trama que combina misterio, amor y los secretos del pasado.</p>
+                <img src="imagenes/la sombre.jpg" alt="Portada de La sombra del viento" width="200" height="250">
+            </article>
+            
+            <article>
+                <h3>Sapiens: De animales a dioses</h3>
+                <p><strong>Autor:</strong> Yuval Noah Harari</p>
+                <p><strong>Resumen:</strong> Un fascinante recorrido por la historia de la humanidad desde la aparición del Homo sapiens hasta la actualidad, explorando cómo nuestra especie logró dominar el mundo a través de revoluciones cognitivas, agrícolas y científicas.</p>
+                <img src="imagenes/sapiesn.jpg" alt="Portada de Sapiens" width="200" height="250">
+            </article>
+            
+            <article>
+                <h3>El hombre en busca de sentido</h3>
+                <p><strong>Autor:</strong> Viktor Frankl</p>
+                <p><strong>Resumen:</strong> Basado en las experiencias del autor en los campos de concentración nazis, este libro explora cómo encontrar significado y propósito en la vida incluso en las circunstancias más difíciles.</p>
+                <img src="imagenes/hombre.jpg" alt="Portada de El hombre en busca de sentido" width="200" height="250">
+            </article>
+            
+            <article>
+                <h3>Cien años de soledad</h3>
+                <p><strong>Autor:</strong> Gabriel García Márquez</p>
+                <p><strong>Resumen:</strong> La historia épica de la familia Buendía a lo largo de varias generaciones en el pueblo ficticio de Macondo, una obra maestra del realismo mágico que retrata la soledad humana y la historia de América Latina.</p>
+                <img src="imagenes/100 año solo.jpg" alt="Portada de Cien años de soledad" width="200" height="250">
+            </article>
+            
+            <article>
+                <h3>The Pragmatic Programmer</h3>
+                <p><strong>Autor:</strong> David Thomas</p>
+                <p><strong>Resumen:</strong> Una guía esencial para programadores que aborda mejores prácticas, técnicas de desarrollo y filosofías para convertirse en un desarrollador más eficiente y pragmático.</p>
+                <img src="imagenes/pro.jpg" alt="Portada de The Pragmatic Programmer" width="200" height="250">
+            </article>
+        </section>
+        
+        <section id="peliculas-favoritas">
+            <h2>Mis películas favoritas</h2>
+            
+            <article>
+                <h3>Interstellar</h3>
+                <p><strong>Director:</strong> Christopher Nolan</p>
+                <p><strong>Protagonistas:</strong> Matthew McConaughey, Anne Hathaway, Jessica Chastain</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zSWdZVtXT7E" 
+                        title="Interstellar Trailer" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+            </article>
+            
+            <article>
+                <h3>El Padrino II</h3>
+                <p><strong>Director:</strong> Francis Ford Coppola</p>
+                <p><strong>Protagonistas:</strong> Al Pacino, Robert Duvall, Diane Keaton</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9O1Iy9H_UKI" 
+                        title="El Padrino II Trailer" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+            </article>
+            
+            <article>
+                <h3>The Dark Knight</h3>
+                <p><strong>Director:</strong> Christopher Nolan</p>
+                <p><strong>Protagonistas:</strong> Christian Bale, Heath Ledger, Aaron Eckhart</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/EXeTwQWrcwY" 
+                        title="The Dark Knight Trailer" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+            </article>
+        </section>
+        
+        <section id="canciones-favoritas">
+            <h2>Canciones favoritas</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Canción</th>
+                        <th>Género</th>
+                        <th>Cantante/Grupo</th>
+                        <th>Álbum</th>
+                        <th>Año</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sola (Remix)</td>
+                        <td>Trap latino / Reguetón</td>
+                        <td>Anuel AA</td>
+                        <td>Sencillo / Remix</td>
+                        <td>2017</td>
+                    </tr>
+                    <tr>
+                        <td>Bebe</td>
+                        <td>Dancehall (español)</td>
+                        <td>6ix9ine ft. Anuel AA</td>
+                        <td>Dummy Boy</td>
+                        <td>2018</td>
+                    </tr>
+                    <tr>
+                        <td>Brindemos</td>
+                        <td>Latin trap</td>
+                        <td>Anuel AA ft. Ozuna</td>
+                        <td>Real Hasta la Muerte</td>
+                        <td>2018</td>
+                    </tr>
+                    <tr>
+                        <td>Como Es (Remix)</td>
+                        <td>Corridos tumbados / Urbano</td>
+                        <td>Anuel AA & Natanael Cano</td>
+                        <td>Single (Remix)</td>
+                        <td>2025</td>
+                    </tr>
+                    <tr>
+                        <td>Mojabi Ghost</td>
+                        <td>Reguetón / Electropop / New wave</td>
+                        <td>Tainy & Bad Bunny</td>
+                        <td>Data</td>
+                        <td>2023</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <article>
+                <h3>Mi Canción Preferida</h3>
+                <audio controls>
+                    <source src="audio/Anuel AA Feat. Daddy Yankee, Farruko, Zion & Lennox y Wisin - Sola (Remix) (Official Lyric Video) - Anuel AA.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+            </article>
+        </section>
+    </main>
     
-
-    <h3>Ciencia Ficción</h3>
-    <ul>
-        <li>2001: Odisea del Espacio</li>
-        <li>Interstellar</li>
-        <li>Blade Runner</li>
-        <li>La Llegada (Arrival)</li>
-        <li>Looper</li>
-    </ul>
-
-    <h3>Drama</h3>
-    <ul>
-        <li>El Padrino II</li>
-        <li>La Lista de Schindler</li>
-        <li>Forrest Gump</li>
-        <li>Parásitos</li>
-        <li>La Vida es Bella</li>
-    </ul>
-
-    <h3>Comedia</h3>
-    <ul>
-        <li>El Gran Hotel Budapest</li>
-        <li>Los Increíbles</li>
-        <li>Superbad</li>
-        <li>¿Qué pasó ayer?</li>
-        <li>Un Loco Viaje al Pasado</li>
-    </ul>
-
-    <h3>Acción</h3>
-    <ul>
-        <li>Rápido y Furioso</li>
-        <li>John Wick</li>
-        <li>Mad Max: Fury Road</li>
-        <li>Duro de Matar</li>
-        <li>The Dark Knight</li>
-    </ul>
-    
-    <!-- Tabla de canciones favoritas -->
-    <h2>Mis Canciones Favoritas</h2>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Canción</th>
-                <th>Género</th>
-                <th>Cantante/Grupo</th>
-                <th>Álbum</th>
-                <th>Año</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Sola (Remix)</td>
-                <td>Trap latino / Reguetón</td>
-                <td>Anuel AA</td>
-                <td>Sencillo / Remix</td>
-                <td>2017</td>
-            </tr>
-            <tr>
-                <td>Bebe</td>
-                <td>Dancehall (español)</td>
-                <td>6ix9ine ft. Anuel AA</td>
-                <td>Dummy Boy</td>
-                <td>2018</td>
-            </tr>
-            <tr>
-                <td>Brindemos</td>
-                <td>Latin trap</td>
-                <td>Anuel AA ft. Ozuna</td>
-                <td>Real Hasta la Muerte</td>
-                <td>2018</td>
-            </tr>
-            <tr>
-                <td>Como Es (Remix)</td>
-                <td>Corridos tumbados / Urbano</td>
-                <td>Anuel AA & Natanael Cano</td>
-                <td>Single (Remix)</td>
-                <td>2025</td>
-            </tr>
-            <tr>
-                <td>Mojabi Ghost</td>
-                <td>Reguetón / Electropop / New wave</td>
-                <td>Tainy & Bad Bunny</td>
-                <td>Data</td>
-                <td>2023</td>
-            </tr>
-        </tbody>
-    </table>
-    
-    <!-- Video personal -->
-    <h2>Video de Presentación</h2>
-    <video width="400" height="300" controls>
-        <source src="videos/virgilio.mp4" type="video/mp4">
-        <source src="videos/virgilio.mp4" type="video/webm">
-        Tu navegador no soporta el elemento de video.
-    </video>
-    
-    <!-- Audio de canción favorita -->
-    <h2>Mi Canción Preferida</h2>
-    <audio controls>
-        <source src="audio/Anuel AA Feat. Daddy Yankee, Farruko, Zion & Lennox y Wisin - Sola (Remix) (Official Lyric Video) - Anuel AA.mp3" type="audio/mpeg">
-        <source src="audios/cancion_favorita.ogg" type="audio/ogg">
-        Tu navegador no soporta el elemento de audio.
-    </audio>
-    
-    <!-- Video de YouTube embebido -->
-    <h2>Video de Mi Artista Favorito</h2>
-    <iframe width="560" height="315"
-            src="https://www.youtube.com/embed/fbhhxJ3Tvss"
-            title="Video de YouTube"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
-    </iframe>
-
-    
-    <!-- Navegación -->
-    <br><br>
-    <a href="index.html">Volver a la página principal</a>
-    
+    <footer>
+        <p>&copy; 2025 Virgilio Peff - Ingeniería Web</p>
+        <p><a href="index.html">Volver a la página principal</a></p>
+    </footer>
 </body>
 </html>
