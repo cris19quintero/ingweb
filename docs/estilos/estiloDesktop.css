@@ -1,0 +1,300 @@
+/* ================================================
+   ESTILODESKTOP.CSS - Layout principal y estilos
+   Equipo No 3 - Ingeniería Web
+   ================================================ */
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Layout principal del body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Main content */
+main {
+    background-color: white;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Secciones */
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    color: #2C3E50;
+    border-bottom: 3px solid #3498DB;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+/* Articles */
+article {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #3498DB;
+    border-radius: 4px;
+}
+
+article h3 {
+    color: #2C3E50;
+    margin-bottom: 15px;
+    font-size: 1.4em;
+}
+
+article p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+article strong {
+    color: #2C3E50;
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    margin: 15px 0;
+    display: block;
+}
+
+/* Videos e iframes */
+video, iframe {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    margin: 15px 0;
+}
+
+/* Audio */
+audio {
+    width: 100%;
+    margin: 15px 0;
+}
+
+/* Listas */
+ul, ol {
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+ul li, ol li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+/* Listas de definición */
+dl {
+    margin-bottom: 20px;
+}
+
+dt {
+    font-weight: bold;
+    color: #2C3E50;
+    margin-top: 15px;
+    font-size: 1.1em;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    border-left: 2px solid #3498DB;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+table thead {
+    background-color: #2C3E50;
+    color: white;
+}
+
+table th {
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+}
+
+table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Formularios */
+form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+fieldset {
+    border: 2px solid #3498DB;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+    background-color: #f9f9f9;
+}
+
+legend {
+    background-color: #2C3E50;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #2C3E50;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    font-family: inherit;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #3498DB;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #3498DB;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980B9;
+}
+
+input[type="reset"] {
+    background-color: #E74C3C;
+}
+
+input[type="reset"]:hover {
+    background-color: #C0392B;
+}
+
+/* Links generales en el contenido */
+a {
+    color: #3498DB;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #2980B9;
+    text-decoration: underline;
+}
+
+/* Tipografía general */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    main {
+        padding: 15px;
+    }
+    
+    article {
+        padding: 15px;
+    }
+    
+    table {
+        font-size: 0.9em;
+    }
+    
+    table th,
+    table td {
+        padding: 8px;
+    }
+}

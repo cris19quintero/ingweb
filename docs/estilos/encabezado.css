@@ -1,0 +1,81 @@
+/* ================================================
+   ENCABEZADO.CSS - Estilos del header y navegación
+   Equipo No 3 - Ingeniería Web
+   ================================================ */
+
+/* Header principal */
+header {
+    background: linear-gradient(135deg, #2C3E50 0%, #3498DB 100%);
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+/* Navegación */
+nav {
+    background-color: #2C3E50;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    display: inline-block;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    font-size: 1em;
+}
+
+nav a:hover {
+    background-color: #3498DB;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+nav a:active {
+    transform: translateY(0);
+}
+
+/* Separadores en navegación */
+nav a:not(:last-child)::after {
+    content: "";
+    border-right: 2px solid rgba(255,255,255,0.3);
+    margin-left: 10px;
+}
+
+/* Responsive para navegación */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+    
+    nav {
+        padding: 10px;
+    }
+    
+    nav a {
+        display: block;
+        margin: 5px 0;
+        padding: 12px;
+    }
+    
+    nav a:not(:last-child)::after {
+        content: none;
+    }
+}

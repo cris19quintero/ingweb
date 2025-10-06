@@ -1,0 +1,68 @@
+/* ================================================
+   PIEDEPAGINA.CSS - Estilos del footer
+   Equipo No 3 - Ingeniería Web
+   ================================================ */
+
+/* Footer principal */
+footer {
+    background: linear-gradient(135deg, #2C3E50 0%, #34495E 100%);
+    color: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 -4px 6px rgba(0,0,0,0.1);
+    margin-top: 30px;
+    position: relative;
+}
+
+footer p {
+    margin: 8px 0;
+    font-size: 0.95em;
+    line-height: 1.6;
+}
+
+footer p:first-child {
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+/* Links en el footer */
+footer a {
+    color: #3498DB;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+footer a:hover {
+    color: white;
+    background-color: #3498DB;
+    transform: translateY(-2px);
+}
+
+/* Elementos adicionales del footer */
+footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background-color: #3498DB;
+}
+
+/* Responsive para footer */
+@media (max-width: 768px) {
+    footer {
+        padding: 20px 15px;
+    }
+    
+    footer p {
+        font-size: 0.9em;
+    }
+}
